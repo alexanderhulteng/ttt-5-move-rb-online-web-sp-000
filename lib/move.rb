@@ -16,7 +16,3 @@ end
 def move(array, index, user = "X")
   array[index] = user
 end
-
-def update_array_at_with(array, index, value)
-  array[index] = value
-end
